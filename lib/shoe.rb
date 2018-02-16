@@ -7,11 +7,6 @@ class Shoe
   def initialize(brand)
     @brand = brand
   end
-
-  def cobble
-    @condition = "new"
-    puts "Your shoe is as good as new!"
-  end
   
   def brand=(brand)
     @brand = brand 
@@ -21,6 +16,13 @@ class Shoe
     @brand
   end 
   
-  BRANDS << @brand 
+  BRANDS << @brand
+
+  def cobble
+    @condition = "new"
+    puts "Your shoe is as good as new!"
+  end
+  
+   
   
 end
