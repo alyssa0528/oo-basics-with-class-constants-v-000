@@ -21,6 +21,6 @@ class Shoe
     @brand
   end 
   
-  BRANDS << brand 
+  BRANDS << @brand 
   
 end
